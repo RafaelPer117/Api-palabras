@@ -1,20 +1,21 @@
 {
-  "name": "api-palabras",
+  "name": "palabras",
   "version": "1.0.0",
-  "description": "Api creado en typescript para generar palabras aleatorias de 4, 5 y 6 letras",
   "main": "index.js",
   "scripts": {
+    "start": "node build/index.js",
+    "tsc": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "description": "",
+  "devDependencies": {
     "@types/express": "^5.0.0",
-    "@types/node": "^22.10.1",
-    "express": "^4.21.1",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.7.2"
+    "typescript": "5.7.2"
+  },
+  "dependencies": {
+    "express": "4.21.1"
   }
 }
-
